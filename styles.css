@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.female {
+    border-color: rgb(194, 61, 83);
+    background: rgb(194, 61, 83);
+
+}
+
+.male {
+    border-color: blue;
+    background: blue;
+}
+
+h1{
+    font-weight: 200;
+    height: 1rem;
+}
+
+h3 {
+    font-weight: 100;
+    height: 1rem;
+
+}
+h4 {
+    font-weight: 50;
+    height: 1rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+button:hover {
+    padding-bottom: 15px;
+}
+
+ .female {
+}
